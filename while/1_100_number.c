@@ -7,5 +7,10 @@
 
 void main(int *args,char *argv[])
 {
+	int i;
+	for(i=1;i<=100;i++)
+	{
+		printf("i=%d",i);
+	}
 }
 
