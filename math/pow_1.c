@@ -2,7 +2,12 @@
 #include<string.h>
 #include<stdlib.h>
 #include<math.h>
+
 void main(void)
 {
-	printf("Hello world !\n");
+	double a = 1.0;
+	double y = 2.0;
+	double c = 1.0;
+	c=pow(a,y);
 }
+

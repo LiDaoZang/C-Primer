@@ -4,5 +4,8 @@
 #include<math.h>
 void main(void)
 {
-	printf("Hello world !\n");
+	float a = -3.1415;
+	a=fabs(a);
+	printf("a abs value :%f\n",a);
 }
+

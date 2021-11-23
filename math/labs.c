@@ -1,8 +1,11 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-#include<math.h>
+
 void main(void)
 {
-	printf("Hello world !\n");
+	long a = -11111111111;
+	a=labs(a);
+	printf("a value : %d\n",a);
 }
+

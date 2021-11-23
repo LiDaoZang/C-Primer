@@ -4,5 +4,8 @@
 #include<math.h>
 void main(void)
 {
-	printf("Hello world !\n");
+	float f = 3.1415;
+	int a = floor(f);
+	printf("%d\n",a);
 }
+
